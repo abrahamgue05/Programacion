@@ -13,10 +13,14 @@ nav{
     display: block;
     width: 100%;
     height: 5rem;
-    background-color: #FF9100;
+    background-color: #ff6d00;
     position: relative;
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin-bottom: 10px;
+    font-size: 25px;
+    color: #3C096C; 
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1{
@@ -32,6 +36,9 @@ h1{
     color: aliceblue;
     padding: 2px 5px 2px 5px;
     cursor: pointer;
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
 }
 
 .container{ 
@@ -85,7 +92,7 @@ span:not(.extras){
 }
 
 .extras{
+    color: #fff; 
     cursor: pointer;
-    color: aliceblue;
     margin-left: 5px;
 }
